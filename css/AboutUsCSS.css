@@ -1,0 +1,31 @@
+body {background-color: #CCFFF2 ;
+    margin-left:auto;
+        margin-right:auto;
+        width: 50%;
+    }
+}
+}
+h1 {text-align:center;
+}
+img {height: 300px;
+    width: 500px;
+    margin: auto;
+    border: 3px solid;
+}
+#A {height:300px;
+    width: 500px;
+}
+h1{font-family:'Dancing Script',cursive;
+    
+}
+#chat {height:223px;
+        width: 200px;
+        background-color: white;
+        float: right;
+        border: solid;
+}
+ul {float: left;
+}
+#B {height: 200px;
+width: 200px;
+}

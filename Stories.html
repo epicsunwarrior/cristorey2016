@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+           <title>My Page</title>
+           <h1>  Other Stories</h1>
+           <h2> (That may or may not be relatable but still inspires many) </h2>
+          <link rel="stylesheet" href="css/Stories.css">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+  
+<button type="button" id="buttton"> Click here to read about those who have left this world, but are now at peace </button>
+
+<textarea rows="4" cols="50" id="Textbox"> </textarea><button type="button" id="Ownbutton"> Enter your story here ^^^ </button>
+
+
+<div id="stories">
+    <p "Success Stories "> Sucess Stories: </p>
+   
+    <ul id="Sxc"> Devon had a very hard life growing up. He almost killed himself, but then he realized that life is better, and now he is more excited about life.</ul>
+    <ul> Sierra was a very unhappy girl who didnt know what to do with her life. She tried to end her life 4 times. She was placed into a clinic where the staff and her ever supportive family, helped her climb out of the somber mood she was in. She was saved thanks to the love she has gotten from her surroundings.</ul>
+ 
+    <p id="my"> They have left us, but their stories haven't:  </p>
+    <p id="jkl"> I knew a guy who had his whole life ahead of him. He was a straight A student, and to most people, and  he seemed happy. But he wasn't. Jacob felt troubled everywhere he went, and as priveleged as he was, he didnt feel as if he had a purpose in life. Its normal to feel left out at times, yeah sure, but he was confused everywhere. He would constantly try and end his life, but someone always pulled him away from the brink of his death: his 5 year old sister. She was the only light in his life at most points. But I guess one day, he realized that he had finally had enough of everything, and he decided that his life, even with his sister by his side, wasnt enough for him to continue. He slit his wrists and bled to death. leaving a bloody footprint in his family, and a brotherless young girl behind.  </p>
+    <p id="abc"> Rani was an amazing girl who decided to end her life because she could no longer stand the pressure of life in general. She would always be willing to do anything to make everyone feel good, but in doing that, she didnt take care of herself. The thing is, she was the eldest of 6 kids. All of them looked up to her, and she couldn't take the stress anymore. Her parents didnt go to college, and so they unknowingly placed all their hopes and dreams onto her. The load was too heavy for her, and she hung herself at around 3AM on January 15th. Her family was deeply affected, and the hole that she left in her famiiy's hearts will never be replaced by anything. She was an angel, but even angels can fall.  </p>
+</div>
+    <img src="https://c2.staticflickr.com/8/7560/15880497417_3e8b84a32a_b.jpg">
+
+         <script>
+            /* global $ */
+         $("#my").hide();   
+         $("#jkl").hide();
+           
+         $("#abc").hide();
+            $("#buttton").click(function(){
+                 $("#my").show();
+                 $("#jkl").show();
+                 $("#abc").show();
+                 
+            });
+            
+            $("#Ownbutton").click(function(){
+                $("#stories").append("<p>"+ $("#Textbox").val()+"</p>");
+            });
+        </script> 
+        
+</body>
+</html>
+
+
+
+
+
+
